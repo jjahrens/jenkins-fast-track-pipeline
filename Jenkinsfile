@@ -11,7 +11,7 @@ pipeline {
       parallel {
         stage('Test On Windows') {
           steps {
-            echo "Running tests on Windows Notebook hp ProBook 6570b"
+            echo "Running tests on Windows"
           }
         }
         stage('Test On Linux') {
@@ -21,5 +21,3 @@ pipeline {
         }
       }
     }
-  }
-}
